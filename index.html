@@ -26,22 +26,20 @@
     <div class="span4">
       <div class="well">
         <div class="avatar">
-          <img src="img/headshot.jpg" />
+          <img src="img/hipster_code.png" />
         </div><!--/avatar -->
         <br class="clearfix" />
 
         <div class="bio">
           <h1>Ben Klein</h1>
-          <p>Programmer, and really cool guy</p>
+          <p>Programmer and Professional Nerd</p>
         </div><!--/bio -->
         <br class="clearfix" />
 
         <div class="contact">
-          <p>906 NE 9th Ave <i class="icon-home"></i></p>
-          <p>Gainesville, FL 32608 <i class="icon-map-marker"></i></p>
-          <p>(813) 368-3982 <i class="icon-signal"></i></p>
-          <p>www.hirebenklein.com <i class="icon-globe"></i></p>
-          <p>info@hirebenklein.com <i class="icon-envelope"></i></p>
+          <p>hirebenklein.com <i class="icon-globe"></i></p>
+          <p>hirebenklein@gmail.com <i class="icon-envelope"></i></p>
+          <p>Gainesville, FL<i class="icon-map-marker"></i></p>
         </div><!--/contact -->
         <br class="clearfix" />
       </div><!--/.well -->
@@ -51,47 +49,65 @@
       <div class="hero-unit">
         <p>
           Hi, I'm <b>Ben Klein</b>, a <b>Ruby on Rails</b> developer  My most recent work has been with
-          <a href='http://www.shadowhealth.com/'>ShadowHealth</a>. They produce incredible products for
-          Medical Education. For my part, I've helped transform their software from a textbook filled with static
-          data to a dynamic publishing system where content creators can work independantly.
-        </p>
-        <p>
-          TODO: my side projects...
+          <a href='http://www.shadowhealth.com/'>ShadowHealth</a> an
+          innovative company producing a 3D virtual patient for Medical Education.  I'm interested in developing
+          robust web applications using Ruby on Rails, with a focus on backend areas. I'm always interested in
+          learning different technologies and languages, as I truly believe different tools exist for different jobs.
+          In my spare time, I'm currently learning Node.js and Haskell to expand my perspectives, and also enjoy
+          tinkering with Arduino projects. I've been programming for many years, starting with Basic many years ago,
+          and progressing through C/C++ (mostly in the Win32 environment), PIC microcontrollers, and most recently Ruby.
         </p>
       </div>
 
       <div class="header">
-        <h2>Languages &amp; Technology</h2>
+        <h2>Technical Experience and Projects</h2>
         <hr />
       </div>
 
       <div class="row">
         <div class="span8">
-          <h4><i class="icon-plus"></i> Languages </h4>
-          <p>
-            Ruby, Ruby on Rails, CoffeeScript, Javascript, Jquery, Haml, Sass, PHP, C/C++, GTK+
-          </p>
-        </div><!--/span-->
-        <div class="span8">
-          <h4><i class="icon-plus"></i> Technologies </h4>
-          <p>
-            Redis, Memcached, PostgreSQL, NewRelic, Sidekiq, S3/Cloudfront, Unity3D integration, RSpec, Capybara,
-            Poltergeist/PhantomJS, Vim
-          </p>
+          <h4><i class="icon-plus"></i> Specialities </h4>
+          <ul>
+            <li>
+              <h5>Languages</h5>
+              <p>
+                Ruby, Ruby on Rails, CoffeeScript, Javascript, JQuery, Haml, Sass, PHP, C/C++, GTK+
+              </p>
+            </li>
+            <li>
+              <h5>Technologies</h5>
+              <p>
+                Redis, Memcached, PostgreSQL, NewRelic, Sidekiq, S3/Cloudfront, Unity3D integration, RSpec, Capybara,
+                Poltergeist/PhantomJS, Vim
+              </p>
+            </li>
+          </ul>
         </div><!--/span-->
         <div class="span8">
           <h4><i class="icon-plus"></i> Personal Projects </h4>
           <ul>
             <li>
-              <h5>Replicable</h5>
+              <h5><a href='https://www.github.com/bklein'>Github</a></h5>
               <p>
-                TODO stuff about Gem
+                I try to post most of my projects to Github, even if it's just a
+                prototype.
               </p>
             </li>
             <li>
-            <h5>Gallery</h5>
+              <h5><a href='https://www.github.com/bklein/replicable'>Replicable</a></h5>
               <p>
-                TODO stuff about app
+                A small extension for ActiveRecord. It allows nested relationships to be cleanly imported and exported via json.
+                Essentially, it's the as_json counterpart to nested attributes in ActiveRecord.
+              </p>
+            </li>
+            <li>
+              <h5><a href='https://www.github.com/bklein/gallery3'>Gallery</a></h5>
+              <p>
+                This is a small website I build to promote my father's art. It originally started as my Rails 2
+                tutorial project and has evolved as my understanding of the framework has expanded. It's currently
+                running on Rails 3.2 and I like to use it to try out new
+                techniques and technologies. You can see it hosted at <a
+                  href='http://www.sigkleinart.com'>sigkleinart.com</a>.
               </p>
             </li>
           </ul>
@@ -105,19 +121,62 @@
 
       <div class="row">
         <div class="span8">
-          <h4><i class="icon-plus"></i> Shadow Health <small>2012-present</small></h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h4><i class="icon-plus"></i> <a href='http://www.shadowhealth.com'>Shadow Health</a> <small>2012-2013</small></h4>
+          <p>
+            I helped develop a Ruby on Rails web app for Nursing Education, which integrated
+            with a 3D virtual patient implemented in Unity3D and took the product
+            from an opinionated app with two Course types and fixed content, to a
+            dynamic system where instructional content and functionality are
+            separated.  When I started, instructional content was contained in
+            hashes in the codebase, with copyedits from nurses going through
+            development and the usual version control and deployment workflow;
+            creating a new course type required a lot of development work, and
+            close integration between development and content teams.
+          </p>
+          <p>
+            In order to expand the app, I helped design and implement a system where courses
+            acted as containers. The current instructional features of the app were moved
+            into various models sharing a common interface, allowing content creators to
+            work independently of development. To allow for archiving and the exchange of
+            course content between instances, I implemented a JSON export library which I
+            was able to detach as a Gem.
+          </p>
+          <p>
+            Additionally, I laid a development roadmap for implementing version control of
+            content, and for separating creation and consumption of content into separate
+            apps. Currently, some content is already separated and versioned in such a
+            system. App response time also improved and became more consistent in this time
+            period, even though our use of caching is almost nonexistent compared to the
+            earlier versions of the app.
+          </p>
         </div><!--/span-->
         <div class="span8">
-          <h4><i class="icon-plus"></i> Infotech Inc. <small>2011-2012</small></h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <h4><i class="icon-plus"></i> <a href='http://www.infotechfl.com'>Infotech Inc.</a> <small>2011-2012</small></h4>
+          <p>
+            I supported the <a href='https://www.bidx.com'>Bid Express</a> website and supporting Windows
+            client/server software, assisting customers with a wide range of
+            technical competency and issues. The service acts as an easy-to-use
+            wrapper around the GPG encryption system, allowing secure encrypted
+            bidding on DOT projects (used or mandated by most DOTs in the US).  I
+            researched common issues and authored a Training Guide targeting our
+            major platforms (Windows XP, Vista, 7).
+          </p>
+          <p>
+            In particular, I researched an issue with the PGP key creation GUI and proposed
+            a solution to the development team which was implemented largely from my design.
+            Additionally, I streamlined weekly pre-release testing by using Ruby and ERB to
+            automatically generate configuration files and projects, essentially allowing us
+            to build a testing environment with one command. In support of a major version
+            release, I travelled personally to several FDOT offices to train and assist with
+            opening of bids in the revised system. In the process of transitioning DOTs to
+            the new system and on-boarding new agencies, I also converted forms into a
+            proprietary configuration format and debugged issues encountered in test-runs.
+          </p>
         </div><!--/span-->
         <div class="span8">
           <h4><i class="icon-plus"></i> O2B Kids, Inc. <small>2010-2011</small></h4>
           <p>
-            I love teaching and helping others grow, and had considered a career as a school teacher. While preschool wasn't the
-            right fit for me in the end, I enjoyed the opportunity to learn and grow. I still enjoy teaching and sharing knowledge
-            in the technical domains.
+            I've always loved teaching and sharing knowledge and learning with others. I had a wonderful experience working with the children in my classes, and I've strived to bring a culture of shared knowledge with me in my technical pursuits.
           </p>
         </div><!--/span-->
         <div class="span8">
@@ -138,15 +197,18 @@
       <div class="row">
         <div class="span8">
           <h4><i class="icon-plus"></i> University of Florida <small>2005-2009</small></h4>
-          <p>Studied Russian and Linguistics. Also dabbled with Mandarin Chinese. Graduated Magna cum Laude. </p>
+          <p>I majored in Russian and Linguistics and also dabbled with Mandarin Chinese. Graduated Magna cum Laude. </p>
         </div><!--/span-->
         <div class="span8">
           <h4><i class="icon-plus"></i> RGGU - Moscow <small>2006</small></h4>
-          <p>Studied Russian language and culture in beautiful Moscow and Petersburg. </p>
+          <p>I studied Russian language and culture in beautiful Moscow and St. Petersburg. </p>
         </div><!--/span-->
         <div class="span8">
           <h4><i class="icon-plus"></i> Linguistic Institute of Nizhny Novgorod <small>2008</small></h4>
-          <p>Studied Russian language and culture in Nizhny Novgorod. Also visited Moscow and Kazan, Tatarstan, the subject of my honors thesis. </p>
+          <p>
+            I studied Russian language and culture in Nizhny Novgorod, Russia.
+            I also had the opportunity to visit Moscow, as well as the subject of my honors thesis, Kazan, in the Republic of Tatarstan.
+          </p>
         </div><!--/span-->
       </div><!--/row-->
     </div><!--/span-->
@@ -155,7 +217,9 @@
   <hr />
 
   <footer>
-    <p><i class="icon-home"></i> 906 NE 9th Ave&nbsp;&nbsp;<i class="icon-map-marker"></i> Gainesville, FL 32609&nbsp;&nbsp;<i class="icon-signal"></i> (813)368-3982&nbsp;&nbsp;<i class="icon-globe"></i> www.hirebenklein.com&nbsp;&nbsp;<i class="icon-envelope"></i> info@hirebenklein.com </p>
+    <p>
+      <i class="icon-envelope"></i> <a href="mailto:hirebenklein@gmail.com">hirebenklein@gmail.com</a>
+    </p>
   </footer>
 
 </div><!--/.container-->
